@@ -2,26 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.main{
+  font-family: 'Roboto', sans-serif;
+  background-color: #C8A2C8;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.title{
+  
+text-align: center;
+justify-content: center;
+font-size: 1.5rem;
+text-shadow: 10px 10px #0000;
+color: white;
+margin-bottom: 20px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.days{
+text-align: center;
+justify-content: center;
+font-size: 4rem;
+font-weight: bold;
+color: white;
+text-shadow: 2px 2px #0000;
+margin-bottom: 20px;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+}
+
+.tay1{
+  position: absolute;
+  
+  left: 10%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  width: auto;
+  height: 600px;
+  transform: rotate(30deg);
+  overflow: hidden;
+}
+.tay2{
+  position: absolute;
+  
+  right: 10%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  width: auto;
+  height: 600px;
+  transform: rotate(-30deg);
+  overflow: hidden;
+}
+.btn{
+  margin-top: 20px;
+  display: block;
+  color: black;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 20px;
+  border-radius: 20px;transition: 0.3s;
+}
+
+.btn:hover{
+  background-color: black;
+  color: #C8A2C8;
+  transition: 0.3s;
 }
