@@ -8,7 +8,7 @@ export default function Home() {
   const [random, setRandom] = useState('')
   const [remainingDays, setRemainingDays] = useState(0)
   const messages = ['te quiero muchoooo <333', 'te extraño :3', 'q bonita eres :D', 'me gustas muchooo!!!', 'ya casi es navidaaaad!!', 'preciosaaaa', 'estoy pensando en ti pero pq literalmente siempre pienso en ti lol...'
-  ,'muAaa:*', 'mandame un beso!!!', 'q haces?', 'si tienes sugerencias o algo que quieras q le agregue dime! :3', 'te quiero mucho mucho mucho'
+  ,'muAaa:*', 'mandame un beso!!!', 'q haces?', 'si tienes sugerencias o algo que quieras q le agregue dime! :3', 'te quiero mucho mucho mucho', 'CHULAAAA :*', 'PRECIOSAAAA!!!'
 
 
 ]
